@@ -1,6 +1,8 @@
+@import '../../app/styles/styleVariables.scss';
+
 .sticky{
     display:flex;
-    background-color: #A5BDC7;
+    background-color: $col-lightblue;
     height: 150px;
 }
 .logo{
@@ -14,7 +16,10 @@
     width: 100%;
 }
 .title{
-    font-size: 60px;
+    font-size: 25px;
     color: black;
-
+    
+    @media screen and (min-width: $bp-large) {
+        font-size: 60px;
+    }
 }
