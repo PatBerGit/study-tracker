@@ -4,6 +4,7 @@
     display:flex;
     background-color: $col-lightblue;
     height: 150px;
+    margin: 0;
 }
 .logo{
     width: 150px;
@@ -16,10 +17,19 @@
     width: 100%;
 }
 .title{
-    font-size: 25px;
+    font-size: 30px;
     color: black;
+    margin-top: 60px;
     
-    @media screen and (min-width: $bp-large) {
+    @media screen and (min-width: $bp-medium) {
         font-size: 60px;
+        margin-top: 33px;
     }
+}
+
+.settings{
+    width: 50px;
+    height:50px;
+    margin-top: 50px;
+    margin-right: 20px;
 }
