@@ -1,0 +1,62 @@
+@import '../../app/styles/styleVariables.scss';
+
+.container{
+    padding: 20px;
+}
+
+.heading{
+    text-align: center;
+    margin-top: 20px;
+
+    @media screen and (min-width: $bp-medium) {
+        font-size: 40px;
+    }
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+    @media screen and (min-width: $bp-medium){
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.labelInput{
+    margin-right: 5px;
+}
+
+.textInput{
+    border-radius: 5px;
+    box-shadow: $shadow;
+    border: 0;
+}
+
+.labelAndField1{
+    margin-bottom: 20px;
+}
+
+.labelAndField2{
+    grid-column: span 2;
+    margin-bottom: 20px;
+}
+
+.descriptionInput{
+    border-radius: 5px;
+    box-shadow: $shadow;
+    width: 60%;
+    height: 60px;
+    border: 0;
+}
+
+.btn{
+    color: white;
+    background-color: $col-red;
+    box-shadow: $shadow;
+    border: 0;
+    width: 50px;
+    padding: 10px;
+}
