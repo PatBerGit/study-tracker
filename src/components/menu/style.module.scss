@@ -1,0 +1,19 @@
+@import '/src/app/styles/styleVariables.scss';
+.menuList{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: $col-lightblue;
+    margin: 0;
+    padding: 10px;
+}
+
+.menuItem{
+    list-style-type: none;
+    margin: 0 10px;
+    font-size: 1.5em;
+    font-weight: 700;
+
+    @media screen and (min-width: $bp-medium) {
+        margin: 0 40px;
+    }
+}

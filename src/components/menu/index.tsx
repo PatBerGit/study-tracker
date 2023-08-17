@@ -6,9 +6,11 @@ export default function Menu(){
 
 return(
     <>
-    <menu>
-        <ul>
-            <li>configuration</li>
+    <menu className={styles.menuList}>
+        <ul className={styles.menuList}>
+            <li className={styles.menuItem}>Courses</li>
+            <li className={styles.menuItem}>Schools</li>
+            <li className={styles.menuItem}>Calendar</li>
         </ul>
     </menu>
     </>
