@@ -4,3 +4,17 @@
   width: 100vw;
   background-color: $col-background;
 }
+
+.container{
+  padding: 20px;
+}
+
+.heading{
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 700;
+
+  @media screen and (min-width: $bp-medium) {
+      font-size: 40px;
+  }
+}
