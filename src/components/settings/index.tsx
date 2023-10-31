@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import styles from './style.module.scss';
 import Link from 'next/link';
+import type { NextApiRequest, NextApiResponse } from 'next'
 
 export default function Settings(){
 
