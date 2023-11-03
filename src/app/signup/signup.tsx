@@ -1,6 +1,6 @@
 'use client'
 import React from "react";
-import signUp from "@/firebase/auth/signup";
+import { SignUp } from "@/firebase/utils";
 import { useRouter } from 'next/navigation'
 
 function Page() {
@@ -11,15 +11,9 @@ function Page() {
     const handleForm = async (ev: React.SyntheticEvent) => {
         ev.preventDefault()
 
-        const { result, error } = await signUp(email, password);
+        await SignUp(email, password);
 
-        if (error) {
-            return console.log(error)
-        }
-
-        // else successful
-        console.log(result)
-        return router.push("/admin")
+        return router.push("/")
     }
     return (<div className="wrapper">
         <div className="form-wrapper">
