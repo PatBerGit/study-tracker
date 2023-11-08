@@ -1,0 +1,35 @@
+@import '/src/app/styles/styleVariables.scss';
+.signupContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.header{
+    font-size: 4em;
+    font-family: $handwriting;
+    margin-bottom: 15px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    font-size: 1.3em;
+}
+
+.label{
+    font-weight: 600;
+    font-size: 1.3em;
+}
+
+.button{
+    margin-top: 20px;
+    background-color: $col-button;
+    font-size: 1.4em;
+    color: white;
+}

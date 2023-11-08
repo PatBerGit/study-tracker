@@ -17,10 +17,11 @@
     width: 100%;
 }
 .title{
-    font-size: 30px;
+    font-size: 3em;
     color: black;
     margin-top: 60px;
     font-weight: 700;
+    font-family: $handwriting;
     
     @media screen and (min-width: $bp-medium) {
         font-size: 60px;
