@@ -20,11 +20,16 @@
 
 .input{
     font-size: 1.3em;
+    border: 0;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: $shadow;
 }
 
 .label{
     font-weight: 600;
     font-size: 1.3em;
+    margin-bottom: 5px;
 }
 
 .button{
@@ -32,4 +37,6 @@
     background-color: $col-button;
     font-size: 1.4em;
     color: white;
+    border-radius: 10px;
+    box-shadow: $button-shadow;
 }
