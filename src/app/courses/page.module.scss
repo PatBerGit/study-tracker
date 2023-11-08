@@ -1,0 +1,13 @@
+@import '/src/app/styles/styleVariables.scss';
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header{
+    font-size: 4em;
+    font-family: $handwriting;
+    margin-bottom: 15px;
+}

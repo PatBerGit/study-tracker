@@ -7,10 +7,19 @@
     margin: 0;
 }
 .logo{
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     margin-left: 20px;
     margin-right: 20px;
+
+    @media screen and (min-width: $bp-medium) {
+        width: 150px;
+        height: 150px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    
 }
 .headerContainer{
     text-align: center;
@@ -24,7 +33,7 @@
     font-family: $handwriting;
     
     @media screen and (min-width: $bp-medium) {
-        font-size: 60px;
+        font-size: 6em;
         margin-top: 33px;
     }
 }
