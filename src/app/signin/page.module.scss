@@ -1,6 +1,6 @@
 @import '/src/app/styles/styleVariables.scss';
 
-.signupContainer{
+.signinContainer{
     display: flex;
     flex-direction: column;
     justify-content: first baseline;
@@ -42,7 +42,7 @@
     box-shadow: $button-shadow;
 }
 
-.haveAccount{
+.noAccount{
     font-size: 1.1em;
     margin: 10px 0;
 }

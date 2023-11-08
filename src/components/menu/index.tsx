@@ -11,7 +11,7 @@ return(
             <Link className={styles.link} href={"/courses"}><li className={styles.menuItem}>Courses</li></Link>
             <Link className={styles.link} href={"/schools"}><li className={styles.menuItem}>Schools</li></Link>
             <Link className={styles.link} href={"/calendar"}><li className={styles.menuItem}>Calendar</li></Link>
-            <Link className={styles.link} href={"/signup"}><li className={styles.menuItem}>Signup</li></Link>
+            <Link className={styles.link} href={"/signin"}><li className={styles.menuItem}>Signin</li></Link>
         </ul>
     </menu>
     </>
