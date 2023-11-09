@@ -33,7 +33,7 @@ function Page() {
                 <button className={styles.button} type="submit">Sign in</button>
             </form>
             <p className={styles.noAccount}>Don&#39;t have an account?</p>
-            <Link href={"/signup"}><button className={styles.button} type="button">Register</button></Link>
+            <Link href={"/signup"}><button className={styles.button} type="button">Register for an account</button></Link>
         </div>
     );
 }
